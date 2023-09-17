@@ -1,0 +1,38 @@
+.bgpic{
+     width: "100%";
+     height: 450px;
+     background-image: url(../../Components//Assests/back.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+}
+
+.pra{
+
+    font-size: 40;
+    font-weight:400;
+
+}
+
+.img{
+
+    width: 600px;
+    height:400px
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+     .bgpic{
+
+        height: 560px;
+     }
+    
+    .img{
+
+          width: 400px;
+          height: 280px;
+    }
+   
+  }
